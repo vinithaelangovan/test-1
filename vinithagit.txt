@@ -1,2 +1,29 @@
-git valuea
-`
+to insert the git values
+
+1 create an online git repo 
+
+2 install git as local repo as 
+
+	yum install git -y
+
+3 to create an locall repo do
+
+	git init
+
+4 the clone the remote rpo in to ur local repo 
+
+	git clone " "
+
+5  make the chages in local repo 
+
+6 the adll all chages in local repo
+
+	git add --all
+
+7 the commit all changes in local repo
+
+ 	git commit 
+8 now push changes in to the remote repo
+
+	git push 
+
