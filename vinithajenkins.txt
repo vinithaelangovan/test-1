@@ -1,0 +1,28 @@
+to install jenkins
+
+
+1 instal latest version of java and remove the old version .
+
+2 then use wget -o /etc/yum.repos.d/jenkins.repo http://
+
+3 import verification key using rpm package
+
+     rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+
+4  yum install jenkins
+
+5  service jenkins start
+
+6 chkconfig jenkins on 
+
+7 to check the default port 
+
+      vi /etc/sysconfig/jenkins
+
+8  and go to security inbounds to enable default port 8080
+
+9  to run jenkins copy the public dns r ip and paste it in the url and mention ":8080"
+
+10 now copy the link and run it and select the password and paste it and run jenkins 
+
+
