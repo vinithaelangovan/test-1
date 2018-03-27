@@ -1,0 +1,35 @@
+to install ansible do the following 
+
+1 chk the whether epel is installed 
+
+2 in amazon ec2 epel is available default 
+
+3 so change it in to
+
+	yum install ansible --enablerepo=epel
+
+4 the generate the ssh key and transfer it to the slave
+
+	ssh-keygen
+
+5  open a terminal 
+
+	chmod 400 keys.pem
+
+6   then copy amazon ec2 instance
+
+	ssh -i....
+
+7   the in root find .ssh
+
+	cd authenticate_key
+
+8   paste the key
+
+9  ssh hostname(dns) 
+
+10 in case of not using sudo 
+
+11  ssh accountnameslave@slavehostname:/directory
+
+
