@@ -1,0 +1,23 @@
+how to write ansible play books
+
+1  create an .yml file inwhich play book will be written 
+
+2  ansible playbook start with 
+
+	---
+3  before all this specify the public ip of the slaves in the host inventory
+
+	/etc/ansible/hosts
+	[host_name]
+		ip address 
+3   save it
+
+4  after step 2 do the following 
+ 
+5  specify the ansible structure 
+
+6  - hosts:
+
+7  and then the tasks 
+
+8  one of the main thing in playbooks indendation is so important 
