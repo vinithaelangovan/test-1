@@ -1,0 +1,10 @@
+---
+ - hosts: my 
+   sudo: yes
+   tasks:
+    - name: Checkout Git repository
+      git:
+        repo: https://github.com/vinithaelangovan/test-1.git
+        dest: "/root/git"
+        force: yes
+    
