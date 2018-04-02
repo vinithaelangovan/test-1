@@ -30,6 +30,8 @@ to install ansible do the following
 
 10 in case of not using sudo 
 
-11  ssh accountnameslave@slavehostname:/directory
+11  scp keyfilename slaveaccountname@slavenodename(public ip) : /directory
+
+12 ssh hostname(pulick ip r dns name )
 
 
