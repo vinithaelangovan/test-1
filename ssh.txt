@@ -1,0 +1,23 @@
+permission denied prb
+
+1	cp /etc/ssh/sshd_config sshd_config.bak
+
+2	vi /etc/ssh/sshd_config 
+
+3  commant the following line
+ 
+	permitRootLogin yes (set yes)
+	
+	paaswordAuthentication yes (set yes)
+
+4	sshd -t
+
+5	service sshd restart
+
+6  master
+
+	scp filename root@public_ip:~
+	copy that to authetication file 
+	done
+
+
