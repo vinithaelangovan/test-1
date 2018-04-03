@@ -1,0 +1,60 @@
+5 differnt classes
+
+    1xx-informational
+    2xx-success 
+    3xx-redirecting
+    4xx-client error
+    5xx-server error
+    
+1xx -informational
+
+      100-continue = intial part of the request have been received by the server  and not yet been rejected by the server. the 
+                     sever will send an final response after the request have been fully received 
+                      
+      101-switiching = server understand and willing to process the request 
+           protocol
+           
+      102-processing = intem response is used to alert the client that server accept the complete request but not yet completed it
+      
+      
+ 2xx-success 
+ 
+      200-ok = the request is succeded 
+      
+      201-created = the request has been fullfiled and resulted in one or more new resource being created
+      
+      202-accepted = the request has been accepted but the processing not been completed 
+      
+      203-non authorized information = the request was successful but the enclosed playloads has been modified from origin server 
+                        response by proxy server
+                        
+      204-no content = the server has successfully fulfiled the request there is no additional content to be delivered
+      
+      205-reset content = 
+      
+      206-partial request = the server successfully fullfiling the range of request by sending the partial content requsted 
+      
+      207-multi status= 
+      
+      208-already repoted
+      
+ 3xx-redirection
+      
+      300-multiple choices= the target resource have more than one representation each has its own specific identifier  the 
+              user cann select what ever information he needed
+              
+      301-moved permanently= the target resource has been moved permanently to the new url 
+      
+      302-found= the targer resource reside temporarily under the differerent url 
+      
+      303-see other = the server is redirecting the user to different resorce as indicated in the url
+      
+      304-not modified= 
+      
+      305-use proxy= we should us proxy for security reasonos
+      
+      307-temporary redirect= the target resource is temp resides in the different url and the server redirect the client to target 
+                          resource
+                          
+      308-permanent redirect = the target resource is permanently moved to different url and redirectted to that permanent url when ever 
+                            clinet request for taarget resource
